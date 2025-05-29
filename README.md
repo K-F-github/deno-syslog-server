@@ -49,7 +49,7 @@ deno compile --allow-net --allow-write --unstable-net syslog_udp_server.ts
 - 檔案儲存位置：`./log/YYYY-MM-DD.txt`
 - 每筆訊息格式：
   ```
-  [HH:MM:SS] <PRI=30> 來自 192.168.1.1: hello world
+  <PRI>date name:hello world
   ```
 
 ---
