@@ -49,7 +49,7 @@ deno compile --allow-net --allow-write --unstable-net syslog_udp_server.ts
 - 檔案儲存位置：`./log/YYYY-MM-DD.txt`
 - 每筆訊息格式：
   ```
-  <PRI>date name:hello world
+  <PRI>datetime name:hello world
   ```
 
 ---
@@ -68,6 +68,6 @@ deno compile --allow-net --allow-write --unstable-net syslog_udp_server.ts
 ## 💻 Example Output | 執行畫面範例
 
 ```bash
-📥 192.168.1.256 ➜ <PRI=30> sshd[1234]: Accepted password for user
+📥 192.168.1.256 ➜ <PRI> datetime router: Accepted password for user
 ```
 
