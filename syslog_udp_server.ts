@@ -17,9 +17,9 @@ const socket = Deno.listenDatagram({
 
 console.log(`✅ Syslog UDP server is listening on port ${PORT}...`);
 
-function parsePri(msg: string): number {
+function parsePri(msg: string): number | null {
 	const priMatch = msg.match(/^<(\d+)>/);
-	if (!priMatch) return -1;
+	if (!priMatch) return null;
 	return parseInt(priMatch[1]);
 }
 

@@ -1,6 +1,6 @@
-# deno-syslog-receiver
+# deno-syslog-server
 
-📥 A lightweight UDP syslog receiver written in Deno. Logs messages into files based on date.  
+📥 A lightweight UDP syslog server written in Deno. Logs messages into files based on date.  
 📘 使用 Deno 編寫的輕量級 UDP Syslog 接收器，依照日期將訊息寫入 log 檔案。
 
 ---
