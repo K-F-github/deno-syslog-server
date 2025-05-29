@@ -1,0 +1,5 @@
+/deno
+/build_arm.sh
+/deno_dir
+/start.sh
+/syslog_udp_server
